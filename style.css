@@ -1,0 +1,127 @@
+body {
+    font-family: "Noto Sans Mandaic", serif;
+    line-height: 1.5;
+    color: #efede9;
+    background-color: #0f0c08;
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+header {
+    text-align: left;
+    padding: 5%;
+}
+
+
+footer p {
+    background-color: #875f27;
+    color: #efede9;
+    padding: .5rem;
+    text-align: center;
+    border: 1px solid #6d4c1e;
+    border-radius: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: #ffffff17;
+}
+
+.contact {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    text-align: center;
+    color: #efede9;
+    border-right: 1px solid #ffffff;
+
+}
+
+.skills {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 10;
+    color: #efede9;
+    border-right: 1px solid #ffffff;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
+}
+
+.about {
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    color: #efede9;
+    border-bottom: 1px solid #ffffff;
+    padding: 5%;
+    text-align: center;
+
+
+}
+
+.education {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    color: #efede9;
+    border-right: 1px solid #ffffff;
+    align-items: center;
+    padding: 5%;
+}
+
+.experience {
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    color: #efede9;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.projects {
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 10;
+    color: #efede9;
+    border-top: 1px solid #ffffff;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
+}
+
+.back-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.button {
+    border-radius: 12px;
+    background-color: #875f27;
+    text-align: center;
+    padding: 2%;
+}
